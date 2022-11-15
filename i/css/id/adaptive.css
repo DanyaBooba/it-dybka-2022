@@ -1,0 +1,19 @@
+@media (min-width: 1074px) {
+    .header-mobile-id {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1073px) {
+    .left-nav {
+        display: none !important;
+    }
+
+    .main-content {
+        width: 100% !important;
+    }
+
+    .header-pc-id {
+        display: none !important;
+    }
+}

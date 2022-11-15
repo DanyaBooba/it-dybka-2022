@@ -1,0 +1,11 @@
+.form-border{
+    border-radius: 12px !important;
+}
+
+.form-border-up {
+    border-radius: 12px 12px 0 0 !important;
+}
+
+.form-border-bottom {
+    border-radius: 0 0 12px 12px !important;
+}
