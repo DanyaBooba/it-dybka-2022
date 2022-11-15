@@ -16,9 +16,9 @@
             Возможно, к сожалению, но я не могу помочь каждому. Я не могу уледить каждому время.
             Зато каждый может уделить время моей разработке, встречайте - Технологии!
         </p>
-        <p>
-            Это проект-помощь тем, кто еще многого не знает, кому предстоит многое узнать,
-            кто достигнет многого и на многое готов!
+        <p class="h-ru fs-3">
+            Это проект-помощь тем, кто еще многого не знает,<br> кому предстоит многое узнать,<br>
+            кто достигнет многого<br> и на многое готов!
         </p>
 
         <p>EN:</p>
@@ -26,7 +26,7 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ab. Officia ratione sapiente corrupti, officiis quas dolores exercitationem ea ullam impedit quisquam possimus dolorum quam totam? Eaque magnam explicabo consequatur!
         </p>
-        <p>
+        <p class="h-en fs-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatum consectetur!
         </p>
     </main>

@@ -1,56 +1,51 @@
 /* LOAD */
 @font-face {
-    font-family: GG-Zaglav;
+    font-family: Krona One;
     font-display: swap;
-    src: url('/i/fonts/other/GG Zaglav.otf');
+    src: url('/i/fonts/Krona One/Regular.ttf');
+}
+
+@font-face {
+    font-family: Radiate Sans;
+    font-display: swap;
+    src: url('/i/fonts/other/Radiate Sans.ttf');
+}
+
+@font-face {
+    font-family: Inter Regular;
+    font-display: swap;
+    src: url('/i/fonts/Inter/Regular.ttf');
+}
+
+@font-face {
+    font-family: Inter Bold;
+    font-display: swap;
+    src: url('/i/fonts/Inter/Bold.ttf');
+}
+
+@font-face {
+    font-family: Inter Italic;
+    font-display: swap;
+    src: url('/i/fonts/Inter/Thin.ttf');
 }
 
 /* SET */
 * {
-    font-family: Inter-Regular;
-}
-
-b,
-.b,
-.fw-bold {
-    font-family: Inter-Bold;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: Geometria-Medium;
-}
-
-h1 nobr,
-h2 nobr,
-h3 nobr,
-h4 nobr,
-h5 nobr,
-h6 nobr,
-.h1 nobr,
-.h2 nobr,
-.h3 nobr,
-.h4,
-nobr,
-.h5 nobr,
-.h6 nobr {
-    font-family: Geometria-Medium;
-}
-
-.font-h {
-    font-family: Geometria-Medium;
+    font-family: Inter Regular;
 }
 
 * nobr {
-    font-family: Inter-Regular;
+    font-family: Inter Regular;
+}
+
+.fw-bold {
+    font-family: Inter Bold;
+}
+
+.h-en {
+    font-family: Krona One !important;
+}
+
+.h-ru {
+    font-family: Radiate Sans !important;
 }
