@@ -29,6 +29,12 @@
     src: url('/i/fonts/Inter/Thin.ttf');
 }
 
+@font-face {
+    font-family: Phonk;
+    font-display: swap;
+    src: url('/i/fonts/other/Phonk.otf');
+}
+
 /* SET */
 * {
     font-family: Inter Regular;
@@ -36,6 +42,14 @@
 
 * nobr {
     font-family: Inter Regular;
+}
+
+.h-ru nobr {
+    font-family: Radiate Sans;
+}
+
+.h-en nobr {
+    font-family: Krona One;
 }
 
 .fw-bold {
@@ -48,4 +62,8 @@
 
 .h-ru {
     font-family: Radiate Sans !important;
+}
+
+.phonk {
+    font-family: Phonk !important;
 }
