@@ -10,7 +10,7 @@
     <main class="container">
 
         <p class="display-5 m-0 text-center">
-            Я очень хочу мира...
+            Я очень хочу...
         </p>
 
     </main>
