@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Radiate;
+    font-style: normal;
+    src: local("Radiate-Sans"),
+        url("/fonts/Radiate-Sans.woff2") format("woff2");
+}
+
+.font {
+    font-family: Radiate;
+}
+
+.header--main {
+    background-color: #101010;
+    margin-bottom: 20px;
+}
+
+.footer--main {
+    background-color: #101010;
+}
+
+.card {
+    background-color: #101010;
+    padding-top: 45px;
+    padding-bottom: 0 !important;
+    margin-bottom: 20px;
+}
+
+.card--link-img {
+    width: 493px;
+    padding-top: 7px;
+    transition: .3s;
+}
+
+.card--link:hover .card--link-img {
+    padding-top: 0px !important;
+    width: 500px;
+}
+
+.card--link-img-2 {
+    width: 993px;
+    padding-top: 7px;
+    transition: .3s;
+}
+
+.card--link:hover .card--link-img-2 {
+    padding-top: 0px !important;
+    width: 1000px;
+}
+
+.card--link-img-3 {
+    width: 993px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: .3s;
+}
+
+.card--link:hover .card--link-img-3 {
+    padding-top: 0px !important;
+    width: 1000px;
+}
+
+.text-3 {
+    font-size: 50px;
+}
+
+@media(max-width: 900px) {
+    .text-3 {
+        font-size: 27px;
+    }
+}

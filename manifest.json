@@ -1,0 +1,14 @@
+{
+	"name": "Creagoo мобильный разработчик",
+	"lang": "ru",
+	"start_url": "/",
+	"display": "browser",
+	"orientation": "any",
+	"background_color": "white",
+	"description": "Creagoo мобильный разработчик",
+	"icon": {
+		"src": "/img/logo/icon.ico",
+		"sizes": "256x256",
+		"type": "image/x-icon"
+	}
+}
