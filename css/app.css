@@ -1,12 +1,13 @@
 @font-face {
-    font-family: Radiate;
+    font-family: Directors;
     font-style: normal;
-    src: local("Radiate-Sans"),
-        url("/fonts/Radiate-Sans.woff2") format("woff2");
-}
+    src: local("Directors"),
+        /* url("/fonts/Directors.woff2") format("woff2"); */
+        url("/fonts/Edingu.otf") format("woff2");
+    }
 
 .font {
-    font-family: Radiate;
+    font-family: Directors;
 }
 
 .header--main {
@@ -60,11 +61,56 @@
 }
 
 .text-3 {
-    font-size: 50px;
+    font-size: 100px;
 }
 
 @media(max-width: 900px) {
     .text-3 {
         font-size: 27px;
+    }
+}
+
+@media(max-width: 771px) {
+    .header--adaptive-pc {
+        display: none !important;
+    }
+}
+
+@media(min-width: 772px) {
+    .header--adaptive-mobile {
+        display: none !important;
+    }
+}
+
+.link {
+    color: #ddd;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+img {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.header--font-size {
+    font-size: 50px;
+}
+
+.footer--font-size {
+    font-size: 35px;
+}
+
+@media(max-width: 900px) {
+    .footer--font-size {
+        font-size: 23px;
+    }
+
+    .header--font-size {
+        font-size: 23px;
     }
 }
