@@ -2,8 +2,8 @@
     font-family: Directors;
     font-style: normal;
     src: local("Directors"),
-        /* url("/fonts/Directors.woff2") format("woff2"); */
-        url("/fonts/Edingu.otf") format("woff2");
+        url("/fonts/Edingu.woff2") format("woff2"),
+        url("/fonts/Edingu.woff") format("woff");
     }
 
 .font {
@@ -11,16 +11,16 @@
 }
 
 .header--main {
-    background-color: #101010;
+    background-color: #070707;
     margin-bottom: 20px;
 }
 
 .footer--main {
-    background-color: #101010;
+    background-color: #070707;
 }
 
 .card {
-    background-color: #101010;
+    background-color: #070707;
     padding-top: 45px;
     padding-bottom: 0 !important;
     margin-bottom: 20px;

@@ -1,11 +1,11 @@
 {
-	"name": "Creagoo мобильный разработчик",
+	"name": "Даниил Дыбка — разработчик из IT",
 	"lang": "ru",
 	"start_url": "/",
 	"display": "browser",
 	"orientation": "any",
 	"background_color": "white",
-	"description": "Creagoo мобильный разработчик",
+	"description": "Молодой разработчик, программист, дизайнер — Даниил Дыбка",
 	"icon": {
 		"src": "/img/logo/icon.ico",
 		"sizes": "256x256",
