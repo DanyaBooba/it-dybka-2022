@@ -60,6 +60,18 @@
     width: 1000px;
 }
 
+.card--link-img-4 {
+    width: 1293px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: .3s;
+}
+
+.card--link:hover .card--link-img-4 {
+    padding-top: 0px !important;
+    width: 1300px;
+}
+
 .text-3 {
     font-size: 100px;
 }
