@@ -24,6 +24,19 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/index.css">
+
+    <script>if (matchMedia("(prefers-color-scheme: dark)").media === "not all") {
+            document.documentElement.style.display = "none";
+            document.head.insertAdjacentHTML(
+                "beforeend",
+                '<link rel="stylesheet" href="/css/light.css" onload="document.documentElement.style.display=\'\'">'
+            );
+        }
+    </script>
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="/css/light.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="/css/dark.css" media="(prefers-color-scheme: dark)">
+
 </head>
 
 <body>

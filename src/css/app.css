@@ -1,9 +1,5 @@
-@font-face {
-    font-family: Directors;
-    font-style: normal;
-    src: local("Directors"),
-        url("/fonts/Edingu.woff2") format("woff2"),
-        url("/fonts/Edingu.woff") format("woff");
+:root {
+    color-scheme: light dark;
 }
 
 body {

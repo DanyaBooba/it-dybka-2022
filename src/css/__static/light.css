@@ -1,0 +1,10 @@
+:root {
+    --text-color: #000;
+    --link-hover: #dfdfdf;
+
+    --bg-color: #ffffff;
+    --text-color: #000000;
+
+    --ol-marker: #999;
+    --bg-image: url('/img/_content/bgimg_light.jpg');
+}
