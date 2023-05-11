@@ -1,0 +1,28 @@
+.header--main {
+    background-color: #070707;
+    margin-bottom: 20px;
+}
+
+.header--font-size {
+    font-size: 50px;
+}
+
+/* MEDIA */
+
+@media(max-width: 771px) {
+    .header--adaptive-pc {
+        display: none !important;
+    }
+}
+
+@media(min-width: 772px) {
+    .header--adaptive-mobile {
+        display: none !important;
+    }
+}
+
+@media(max-width: 900px) {
+    .header--font-size {
+        font-size: 23px;
+    }
+}

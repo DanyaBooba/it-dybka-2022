@@ -1,0 +1,15 @@
+.footer--main {
+    background-color: #070707;
+}
+
+.footer--font-size {
+    font-size: 35px;
+}
+
+/* MEDIA */
+
+@media(max-width: 900px) {
+    .footer--font-size {
+        font-size: 23px;
+    }
+}
