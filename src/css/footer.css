@@ -1,5 +1,6 @@
 .footer--main {
     margin-top: 20px;
+    border-top: 1px var(--border-bottom) solid;
 }
 
 .footer--font-size {

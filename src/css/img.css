@@ -4,3 +4,8 @@ img {
     -webkit-user-select: none;
     user-select: none;
 }
+
+.image-border
+{
+    border-radius: 12px;
+}
