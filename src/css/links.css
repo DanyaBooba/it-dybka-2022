@@ -1,7 +1,19 @@
 .link {
-    color: #ddd;
+    color: var(--link-hover);
+    text-decoration: none;
+    display: block;
 }
 
-.link:hover {
-    color: #fff;
+.link:hover,
+.link:focus {
+    color: var(--text-color);
+}
+
+.link-header,
+.link-header:hover,
+.link-header:focus
+{
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
 }

@@ -3,9 +3,11 @@
 }
 
 body {
-    background-color: #070707;
+    background-color: var(--bg-color);
 }
 
 * {
     font-family: Directors;
+    color: var(--text-color);
+    fill: var(--text-color);
 }
