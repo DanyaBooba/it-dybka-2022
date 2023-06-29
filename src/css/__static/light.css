@@ -3,4 +3,15 @@
     --bg-color: #fff;
     --link-hover: #444;
     --border-bottom: #bbb;
+
+    /* BG */
+    --bg-light-1: #ECF5F8;
+    --bg-light-1-hover: #E0ECF0;
+
+    --bg-light-2: #F2ECF8;
+    --bg-light-3: #ecf8f0;
+    --bg-light-4: #f8f6ec;
+
+    /* Text */
+    --text-color-1: #545454;
 }

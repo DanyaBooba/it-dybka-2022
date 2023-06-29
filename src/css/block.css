@@ -1,4 +1,27 @@
-.block
+.block {
+    background: var(--bg-light-1);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.block .title {
+    font-size: 40px;
+}
+
+.block .tags
 {
-    margin-bottom: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.block .tags span {
+    color: var(--text-color-1);
+}
+
+.block a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 20px;
 }
