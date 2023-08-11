@@ -1,14 +1,23 @@
 @font-face {
-    font-family: Directors;
+    font-family: Geologica-Bold;
     font-style: normal;
     src: local("Directors"),
-        url("/fonts/Edingu.woff2") format("woff2"),
-        url("/fonts/Edingu.woff") format("woff");
+        url("/fonts/Geologica/Geologica-Bold.woff2") format("woff2"),
+        url("/fonts/Geologica/Geologica-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: NotoSans;
+    font-family: Geologica-Light;
     font-style: normal;
     src: local("NotoSans"),
-        url("/fonts/NotoSans-Medium.woff2") format("woff2");
+        url("/fonts/Geologica/Geologica-Light.woff2") format("woff2"),
+        url("/fonts/Geologica/Geologica-Light.woff") format("woff");
+}
+
+*, div, p, b, i, a {
+    font-family: Geologica-Light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Geologica-Bold;
 }

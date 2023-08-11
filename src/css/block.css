@@ -6,14 +6,33 @@
     margin-bottom: 30px;
 }
 
-.block .title {
-    font-size: 40px;
+.block .title a {
+    font-size: 30px;
+    font-family: Geologica-Light;
+}
+
+/* Tags */
+
+.tags {
+    margin-top: 5px;
+}
+
+.tags span {
+    border: 1px solid var(--text-color);
+    margin: 3px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+
+    border-radius: 30px;
 }
 
 .block .tags
 {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .block .tags span {
